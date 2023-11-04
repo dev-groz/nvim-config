@@ -18,11 +18,11 @@ git clone --depth 1 https://github.com/dev-groz/nvim-config ~/.config/nvim
 
 # To start:
 1. Install Packer from https://github.com/wbthomason/packer.nvim
-
+1. Open *packer.lua* in Nvim:
 ```console
 nvim ~/.config/nvim/lua/configs/packer.lua
 ```
-after in Nvim
+1. Synchronize download with Packer:
 ```console
 :PackerSync
 ```
